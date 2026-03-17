@@ -125,7 +125,7 @@ export default function HomePage() {
               <p className="mt-2 leading-7 text-zinc-300">
                 <p className="mt-2 leading-7 text-zinc-300">
                   A dark fantasy 2.5D JRPG focused on atmosphere, stylized
-                  combat, and emotional stakes...
+                  combat, and emotional stakes.
                 </p>
               </p>
             </div>
