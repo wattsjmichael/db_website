@@ -110,23 +110,20 @@ export default function HomePage() {
             <div className="aspect-video w-full border-b border-zinc-800 bg-zinc-950">
               <video
                 className="h-full w-full object-cover"
-                controls
+                autoPlay
                 muted
                 loop
                 playsInline
-                poster="https://placehold.co/1280x720/18181b/f4f4f5?text=Project+Sunder+Gameplay"
               >
-                <source src="/videos/sunder-combat.mp4" type="video/mp4" />
+                <source src="/videos/ps_combat.mp4" type="video/mp4" />
               </video>
             </div>
             <div className="p-6">
               <p className="text-sm text-red-300">Featured gameplay clip</p>
               <h2 className="mt-2 text-2xl font-bold">Project Sunder</h2>
               <p className="mt-2 leading-7 text-zinc-300">
-                <p className="mt-2 leading-7 text-zinc-300">
-                  A dark fantasy 2.5D JRPG focused on atmosphere, stylized
-                  combat, and emotional stakes.
-                </p>
+                A dark fantasy 2.5D JRPG focused on atmosphere, stylized combat,
+                and emotional stakes.
               </p>
             </div>
           </div>
@@ -164,7 +161,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2">
+          {/* <div className="mt-12 grid gap-6 md:grid-cols-2">
             <div className="overflow-hidden rounded-[2rem] border border-zinc-800 bg-zinc-950/80">
               <div className="aspect-video bg-zinc-900">
                 <video
@@ -207,7 +204,7 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
